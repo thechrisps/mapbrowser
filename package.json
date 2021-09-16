@@ -1,0 +1,29 @@
+{
+  "name": "mapbrowser",
+  "version": "1.0.0",
+  "description": "Simple map routing & comparison",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "parcel index.html",
+    "build": "parcel build --public-url . index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thechrisps/mapbrowser.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/thechrisps/mapbrowser/issues"
+  },
+  "homepage": "https://github.com/thechrisps/mapbrowser#readme",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "file-saver": "^2.0.5",
+    "jquery": "^3.5.1",
+    "ol": "^6.5.0"
+  },
+  "devDependencies": {
+    "parcel-bundler": "^1.12.4"
+  }
+}

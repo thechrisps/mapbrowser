@@ -1,0 +1,31 @@
+Add new npm packages:
+- npm install <<package>>
+- npm install --save-dev parcel-bundler
+
+Start the npm dev server:
+- npm start
+
+Secrets management:
+- Make sure there is a .env file in the root
+- Files should be of format key=value
+- Required entries in .env file:
+    - bingkey=######### (from bingmapsportal.com)
+
+Build full distribution
+- npm run build
+- copy dist/ to web server
+
+To debug
+- Use Visual Studio Code with Chrome deubgger plugin
+- From a terminal, in the project directory, npm start & wait for build to complete
+- Run from VSC, using included launch file
+- (You must debug this way, as parcel transpiles and this launch file includes the correct source maps)
+
+To run on Azure App Service
+- Install Azure plugin for Visual Studio Code
+- Log into Azure in VSCode
+- Login to the Azure portal (portal.azure.com)
+- Create a new app service (free tier is fine)
+- In the Azure browser in VSCode, open up your Azure subscription, click the new app service you have just created.
+- There will be a little blue up arrow next to the app service name that says "Deploy". Click that.
+- Details: https://docs.microsoft.com/en-gb/azure/app-service/quickstart-nodejs?pivots=platform-linux

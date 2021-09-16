@@ -1,0 +1,33 @@
+body {
+  font-family: sans-serif;
+}
+
+h1 {
+  font-size: 14;
+  font-weight:bold;
+}
+p {
+  font-size: 12;
+  font-weight:normal;
+}
+
+.map {
+  width: 100%;
+  height:100%;
+}
+.controls {
+  position: fixed;
+  top: 10px;
+  left:10px;
+  width:auto;
+  background-color: #fff;
+  margin:0px;
+  padding:10px;
+}
+
+.focusedMap {
+  font-weight:bold;
+  color:darkgreen;
+}
+
+/*# sourceMappingURL=/main.c52e0fe2.css.map */
